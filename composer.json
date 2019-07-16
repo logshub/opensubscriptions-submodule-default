@@ -1,0 +1,19 @@
+{
+    "name": "open-subscriptions/submodule-default",
+    "description": "Open Subscriptions, default submodule",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php",
+            "registration-opensubscriptions.php"
+        ],
+        "psr-4": {
+            "OpenSubscriptions\\OpenSubscriptionsSubDefault\\": ""
+        }
+    }
+}
