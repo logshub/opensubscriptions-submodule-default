@@ -1,5 +1,5 @@
 <?php
 
-\OpenSubscriptions\OpenSubscriptions\Model\Submodule::register(
-    'OpenSubscriptions\OpenSubscriptionsSubDefault\Model\Submodule'
+\Logshub\OpenSubscriptions\Model\Submodule::register(
+    'Logshub\OpenSubscriptionsSubDefault\Model\Submodule'
 );

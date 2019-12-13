@@ -1,7 +1,7 @@
 <?php
-namespace OpenSubscriptions\OpenSubscriptionsSubDefault\Model;
+namespace Logshub\OpenSubscriptionsSubDefault\Model;
 
-use OpenSubscriptions\OpenSubscriptions\Model\SubmoduleConnectionInterface;
+use Logshub\OpenSubscriptions\Model\SubmoduleConnectionInterface;
 
 class Connection implements SubmoduleConnectionInterface
 {

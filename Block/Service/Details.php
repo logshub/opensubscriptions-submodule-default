@@ -1,5 +1,5 @@
 <?php
-namespace OpenSubscriptions\OpenSubscriptionsSubDefault\Block\Service;
+namespace Logshub\OpenSubscriptionsSubDefault\Block\Service;
 
 class Details extends \Magento\Framework\View\Element\Template
 {
@@ -19,8 +19,8 @@ class Details extends \Magento\Framework\View\Element\Template
     
     public function getTemplate()
     {
-        $isActive = $this->getService()->getStatus() === \OpenSubscriptions\OpenSubscriptions\Model\Service::ACTIVE;
-        $isThisSubmodule = $this->getService()->getSubmodule() == \OpenSubscriptions\OpenSubscriptionsSubDefault\Model\Submodule::ID;
+        $isActive = $this->getService()->getStatus() === \Logshub\OpenSubscriptions\Model\Service::ACTIVE;
+        $isThisSubmodule = $this->getService()->getSubmodule() == \Logshub\OpenSubscriptionsSubDefault\Model\Submodule::ID;
         if ($isThisSubmodule && $isActive) {
             return 'service/details.phtml';
         }

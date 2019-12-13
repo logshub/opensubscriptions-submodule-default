@@ -1,11 +1,11 @@
 <?php
-namespace OpenSubscriptions\OpenSubscriptionsSubDefault\Model;
+namespace Logshub\OpenSubscriptionsSubDefault\Model;
 
-use OpenSubscriptions\OpenSubscriptions\Model\SubmoduleInterface;
-use OpenSubscriptions\OpenSubscriptions\Model\SubmoduleAbstract;
-use OpenSubscriptions\OpenSubscriptions\Model\CommandInterface;
-use OpenSubscriptions\OpenSubscriptions\Model\Connection as OaConnection;
-use OpenSubscriptions\OpenSubscriptions\Model\SubmoduleConnectionInterface;
+use Logshub\OpenSubscriptions\Model\SubmoduleInterface;
+use Logshub\OpenSubscriptions\Model\SubmoduleAbstract;
+use Logshub\OpenSubscriptions\Model\CommandInterface;
+use Logshub\OpenSubscriptions\Model\Connection as OaConnection;
+use Logshub\OpenSubscriptions\Model\SubmoduleConnectionInterface;
 
 class Submodule extends SubmoduleAbstract implements SubmoduleInterface
 {
@@ -32,6 +32,6 @@ class Submodule extends SubmoduleAbstract implements SubmoduleInterface
 
     public function getHelpBlock(): string
     {
-        return \OpenSubscriptions\OpenSubscriptionsSubDefault\Block\Adminhtml\Help::class;
+        return \Logshub\OpenSubscriptionsSubDefault\Block\Adminhtml\Help::class;
     }
 }

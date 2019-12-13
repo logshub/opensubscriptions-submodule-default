@@ -1,7 +1,7 @@
 <?php
-namespace OpenSubscriptions\OpenSubscriptionsSubDefault\Setup;
+namespace Logshub\OpenSubscriptionsSubDefault\Setup;
 
-class InstallData extends \OpenSubscriptions\OpenSubscriptions\Setup\InstallAttributesAbstract
+class InstallData extends \Logshub\OpenSubscriptions\Setup\InstallAttributesAbstract
 {
     public function getNewAttributeSetName(): string
     {

@@ -1,5 +1,5 @@
 <?php
-namespace OpenSubscriptions\OpenSubscriptionsSubDefault\Block\Adminhtml;
+namespace Logshub\OpenSubscriptionsSubDefault\Block\Adminhtml;
 
 class Help extends \Magento\Framework\View\Element\Template
 {
